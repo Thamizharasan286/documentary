@@ -1,0 +1,46 @@
+/* 
+Task:array function
+Date:26/01/2023 */
+#include<stdio.h>
+int main()
+{
+	int i,a[10],size,result;
+	printf("Ente the number what do you want :");
+	scanf("%d",&size);
+	printf("Enter the numbers\n:");
+	for(i=0;i<size;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	result=tin(a,size);
+	printf("%d",result);
+	return 0;
+	
+}
+int tin(int a[],int size)
+{
+{    
+    int addition=1,i;
+	for(i=0;i<size;i++)
+	{
+		addition=addition*a[i];
+	}
+	return addition;
+}
+{
+	int substraction=1,i;
+	for(i=0;i<size;i++)
+	{
+		substraction=substraction*a[i];
+	}
+	return substraction;
+	
+}
+{
+	int multiplication=1,i;
+	for(i=0;i<size;i++)
+	{
+		multiplication=multiplication*a[i];
+	}
+	return multiplication;
+}}
